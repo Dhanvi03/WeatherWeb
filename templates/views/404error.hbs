@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>headerLinks}}
+</head>
+<body>
+   <!-- Navbar -->
+   {{>header}}
+
+    <!-- main body -->
+    <div class="container-fluid main_header">
+      <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+
+              <!-- Left part -->
+              <div class="col-md-12 col-12 main_header_left align-items-center "> 
+                <figure class="error-img">
+                    <img src="imgs/404.png" alt="About pic" />
+                </figure>
+            
+                <p>Welcome To Patel Dhanvi Word.</p>
+                <h1>{{errorMsg}}</h1>
+                <a href="/"><button>Go Back</button></a>
+            </div>
+    
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   {{>footer}}
+</body>
+</html>
